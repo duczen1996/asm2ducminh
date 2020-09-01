@@ -1,0 +1,160 @@
+
+
+a{
+    text-decoration: none;
+    color: rgb(26, 2, 2);	
+}
+p{
+	font-family: "Lucida Console", Courier, monospace;
+}	
+#center{
+    
+    color: white;
+	
+}
+
+.header{
+	background: #c5e535 ;
+	border-collapse: collapse;
+	height: 105px;
+}
+
+#article-1 {
+	float: left;
+	padding: 5px;
+	padding-left: 20px;
+	height: 90px;
+	padding-top: 10px;	
+}
+
+#center{
+	padding-top: 20px;
+}
+
+ #article-3, #article-4{
+	float: left;
+	padding: 5px;
+	height: 90px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	
+
+}
+#article-2:hover{
+	background: rgb(51, 143, 15);
+	height: 90px;
+}
+
+#article-3:hover{
+	background: grey;
+	height: 90px;
+}
+
+#article-4:hover{
+	background: grey;
+	height: 90px;
+}
+
+.product{
+margin:50px;
+
+}
+.product::after{
+	clear: both;
+	content: "";
+	display: table;
+}
+.product .product-1{
+	float: left;
+	width: 33.33333333%;
+
+
+}
+
+#nav .nav-header{
+	overflow: auto;
+	margin-bottom: 30px;;
+
+}
+
+#nav .nav-header .title{
+	text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+	font-size: 24px;
+	margin-bottom: 50px;;
+
+}
+
+#nav .nav-header .clearfix{
+	margin-top: 20px;
+}
+#nav .nav-header .clearfix::after{
+	display: table;
+	clear: both;
+	content: "";
+
+}
+#nav .nav-header .clearfix .nav-header-1{
+	width: 33.33333333%;
+    float: left;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+#nav .nav-header .clearfix .nav-header-1 .icon{
+	width: 100px;
+    margin: 0 auto;
+}
+#nav .nav-header .clearfix .nav-header-1 .subtitle{
+	text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+#nav .nav-header .clearfix .nav-header-1 p{
+	line-height: 23px;
+	text-align: center;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family: sans-serif;
+    vertical-align: baseline;
+    background: transparent
+
+}
+
+
+
+
+
+
+.footer{
+	overflow: auto;
+	background-color:#aeda9a;
+	margin-bottom: 5px;
+	padding:15px;
+	clear: both;
+    
+}
+.footer .list-shop-systems .list-shop-systems-1{
+	float: left;
+	width: 33.33333333%;
+	border-right: 1px solid #323c3f;
+	line-height: 1.6;
+	position: relative;
+    min-height: 2px;
+    padding-right: 15px;
+    padding-left: 15px;
+	box-sizing: border-box;
+
+
+}
+
+
+
+
+
