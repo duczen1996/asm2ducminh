@@ -9,8 +9,6 @@ const engines = require('consolidate');
 app.engine('hbs', engines.handlebars);
 app.set('views', './views');
 app.set('view engine', 'hbs');
-
-//localhost:5000
 app.get('/', function (req, res) {
     res.render('index');
 })
@@ -27,23 +25,6 @@ app.get('/insert',function (res, res){
     res.render('insert')
 })
 
-
-
-/* 
-var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb+srv://vanhien:hienvan123@cluster0.7hfpc.mongodb.net/test";
-
-app.post('/',async (req,res)=>{
-    let inputName = req.body.txtName;
-    let inputWeight = req.body.txtWeight;
-    let newStudent = {name : inputName, weigh:inputWeight};
-
-    let client= await MongoClient.connect(url);
-    let dbo = client.db("StudentDB");
-    await dbo.collection("Student").insertOne(newStudent);
-    res.redirect('/');
-})
-  */
 var bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({ extended: false }));
 
