@@ -29,7 +29,7 @@ var bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({ extended: false }));
 
 var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb://<dbuser>:duczen1995@ds261917.mlab.com:61917/heroku_pf0hj8kw";
+var url = "mongodb+srv://duczen:duczen1995@cluster0.wsxbe.mongodb.net/test";
 
 
 app.post('/doRegister', async (req, res) => {
