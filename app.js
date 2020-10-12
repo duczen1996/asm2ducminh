@@ -44,7 +44,7 @@ app.post('/doRegister', async (req, res) => {
         number: inputNumber,
     }
     //check data before writing to file
-    if (inputName.length < 4) {
+    if (inputName.toUpperCase()) {
         let errorModel = {
             nameError: "Ten phai lon hon 3 ky tu!"
             , emailError: "email k hop le"
